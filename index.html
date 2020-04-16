@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navjot Kaur</title>
+<meta charset="utf-8">
+<meta lang="en">
+<link rel="stylesheet" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="container1">
+<!--- create the navigation bar---->
+<div class="nav-wrapper">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#About">About Me</a>
+  <a href="#skills">Professional Skills</a>
+  <a href="#education">Education</a>
+  <a href="#experience">experience</a>
+
+  
+ </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<div class="right-side">
+<div>Navjot Kaur</div>
+</div>
+</div>
+
+<!-----create about me---->
+<div class="container2" id="about">
+<div class="row">
+<div class="column1">
+<img class="mypic" src="images/mypic.jpg" alt="Navjot Kaur"></div>
+<div class="column2">
+<h3>About Me</h3>
+<p>I am Navjot Kaur, student of Lambton college currently enrolled in COMPUTER PROGRAMMING course.
+Self-motivated professional with outstanding oral and written communication skills.Highly knowledgeable 
+in computer software.Speciallizing in front-end development.Strong background in management and leadership.
+Maintain positive attitude and happy to help people.I particularly enjoy work as a part of the team.I like 
+to seek out learning opportunities and I am not afraid to fail and struggle as a part of learning.
+</p><br>
+<a class="button" href="coopresume.pdf">view resume</a>
+
+</div>
+</div>
+</div>
+</div>
+<!------professional Skills----->
+
+<div class="container3" id="skills">
+<h2 class="header" >Professional Skills</h2>
+<div id="services" class="container-fluid text-center">
+ 
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <img src="images/icons8-big-data-50.png" alt=" " >
+      <h4>Data Structure and algorithms</h4>
+      <p>Analyze the problem area and  able to evalute the possible alternatives and implimentations</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/icons8-programming-100.png" alt=" ">
+      <h4>programming languages</h4>
+      <p>Knowledge of C#,python,java , java enterprise</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/icons8-database-60.png" alt=" ">
+      <h4>Database</h4>
+      <p>Understanding of working with databases</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <img src="images/icons8-pass-fail-100.png" alt=" ">
+      <h4>Testing</h4>
+      <p> Test programs with testing frameworks</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/icons8-process-100.png" alt=" " >
+      <h4>Software Development life cycle</h4>
+      <p>Practical experience in SDLC</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/icons8-microsoft-100.png" alt=" ">
+      <h4 style="color:#303030;">Microsoft office</h4>
+      <p>Basic knowledge of Microsoft office </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--------Education------->
+
+<div class="education" id="education">
+<h2 class="header" >Education</h2>
+<button class="collapsible"><b>Computer Programmer</b><br><i>Lambton College in Mississauga</i></button>
+<div class="content1">
+	
+  <p><b>What I have learned</b>
+	<ul>
+	<li>Mobile app development using Xamarin and C#</li>
+	<li>Basic understanding of Java EE and Csharp </li>
+	<li>Modern Web Technologies such as HTML 5,CSS 3,Javascript, Bootstrap and JQuery for creating web applications</li>
+	<li>Learned programming languages such as Java , Java EE, C# and Python</li>
+	<li>Worked with operating systems</li>
+	<li>Understanding of database queries and procedures</li>
+	</ul></p>
+</div>
+<button class="collapsible"><b>High School Education(Non-Medical)</b><br><i>Hindu Kanya Collegiate School</i></button>
+<div class="content1">
+  <p><b>What I have learned</b>
+	<ul>
+	<li>enhance skills in mathematics</li>
+	<li>Learned pyhsics and Chemistry</li>
+	<li>Improving my Communication Skills</li>
+  </ul></p>
+</div>
+
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+</script>
+
+<!----Experience---->
+
+<div class="container mt-5 mb-5" id="experience">
+<h2 class="header">Experience</h2>
+
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			
+			<ul class="timeline">
+				<li>
+					
+					<h4><b><u>09 September, 2018 - Current</u></b></h4>
+					<p>Warehouse Worker -<i>Reliable Parts, Mississauga</i><br>
+					
+					<ul>
+					<strong>What I'have Gained</strong>
+					<li>Able to work for long hours.</li>
+					<li>Strong Communication and leadership skills.</li>
+					<li>Worked in fast phased environment.</li>
+					<li>Able to follow instructions of suoervisors</li>
+					</ul>
+					</p>
+				</li>
+				<li>
+			
+					<h4><b><u>28 November, 2019 - Current</u></b></h4>
+					<p>Volunteer Work-<i> Celebration  Square, Mississauga</i><br>
+					
+					<ul>
+					<strong>What I'have Gained</strong>
+					<li>Interact with people.</li>
+					<li>Enjoy the work in team.</li>
+					<li>increase in my social and relationship skills.</li>
+					</ul>
+					</p>
+				</li>
+				<li>
+					<h4><b><u>25 February, 2020 - Current</u></b></h4>
+					<p>Teaching Assisstant -<i>Lambton College, Mississauga</i><br>
+					
+					<ul>
+					<strong>What I'have Gained</strong>
+					<li>Developed strong interpersonal skills in working with students to achieve them and succeed.</li>
+					<li>Helped students to solve their problems regarding their projects and assignments.</li>
+					<li>Have gotten strong base of web development by teaching and working with various projects.</li>
+					</ul>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="text-muted mt-5 mb-5 text-center small"></div>
+
+
+<!----footer---->
+<div class="footer">
+<div class="center">
+<h3>Connect With Me....</h3>
+<a href="https://www.linkedin.com/in/navjot-kaur-832a8416b/"><img src="images/linkedin.png" alt=" "></a>
+<a href="https://github.com/Navkaur-web"><img src="images/github.png" alt=" "></a>
+<a href="mailto:kaurnavjot1120@gmail.com?subject=subject text"><img src="images/email.png" alt=" "></a>
+<p>copyright 2020 by Navjot kaur</p>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
